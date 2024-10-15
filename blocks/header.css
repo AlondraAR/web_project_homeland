@@ -1,0 +1,121 @@
+.header__logo{
+    display: flex;
+    margin: 32px auto 90px auto;
+    max-width: 255px;
+    max-height: 69px;
+    
+}
+.header__title{
+    font-family: "InterVariable",serif;
+    font-size: 96px;
+    line-height: 1.04;
+    font-weight: 900;
+    max-width: 720px;
+    margin: auto;
+    text-align: center;
+}
+.header__subtitle{
+    font-family: "InterVariable",serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    max-width: 720px;
+    margin: 32px auto 64px auto;
+    text-align: center;
+}
+.header__image{
+margin: auto;
+filter: grayscale(100%);
+}
+.header__content{
+    max-width: 830px;
+    margin-top: 92px;
+    margin-bottom: 92px;
+    
+}
+.header__content_title{
+    font-family: "InterVariable",serif;
+    font-size: 54px;
+    line-height: 1.07;
+    font-weight: 900;
+}
+.header__content_quote{
+    font-family: "InterVariable",serif;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.header__content_quote-autor{
+    text-align: end;
+}
+.header__content_description{
+    font-family: "InterVariable",serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.header__footer{
+    display: flex;
+    justify-content: center;
+    font-family: "InterVariable",serif;
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 400;
+}
+@media screen and (max-width:768px){
+    .header__logo{
+        max-width: 250px;
+        max-height: 60px;
+        
+    }
+    .header__title{
+        font-size: 75px;
+        max-width: 530px;
+    }
+    .header__subtitle{
+        margin: 25px auto 30px auto;
+    }
+    .header__image{
+    margin: auto;
+    max-width: 100%;
+    }
+    .header__content{
+        max-width: 98%;
+        margin: auto;
+        margin-top: 92px;
+        margin-bottom: 92px;
+        
+    }
+    .header__content_title{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:320px){
+    .header__logo{
+        max-width: 188px;
+        max-height: 52px;
+        
+    }
+    .header__title{
+        font-size: 40px;
+        max-width: 530px;
+    }
+    .header__subtitle{
+        font-size: 16px;
+        margin: 25px auto 30px auto;
+    }
+    .header__image{
+    margin: auto;
+    max-width: 100%;
+    }
+    .header__content{
+        max-width: 98%;
+        margin: auto;
+        margin-top: 92px;
+        margin-bottom: 92px;
+        
+    }
+    .header__content_title{
+        font-size: 32px;
+    }
+}
