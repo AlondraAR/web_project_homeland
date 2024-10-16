@@ -33,22 +33,22 @@ filter: grayscale(100%);
     margin-bottom: 92px;
     
 }
-.header__content_title{
+.header__content-title{
     font-family: "InterVariable",serif;
     font-size: 54px;
     line-height: 1.07;
     font-weight: 900;
 }
-.header__content_quote{
+.header__content-quote{
     font-family: "InterVariable",serif;
     font-size: 24px;
     line-height: 1.5;
     font-weight: 400;
 }
-.header__content_quote-autor{
+.header__content-quote_autor{
     text-align: end;
 }
-.header__content_description{
+.header__content-description{
     font-family: "InterVariable",serif;
     font-size: 16px;
     line-height: 1.6;
@@ -86,7 +86,7 @@ filter: grayscale(100%);
         margin-bottom: 92px;
         
     }
-    .header__content_title{
+    .header__content-title{
         font-size: 45px;
     }
 }
@@ -115,7 +115,7 @@ filter: grayscale(100%);
         margin-bottom: 92px;
         
     }
-    .header__content_title{
+    .header__content-title{
         font-size: 32px;
     }
 }
