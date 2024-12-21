@@ -1,3 +1,7 @@
+.header{
+    margin: auto;
+}
+
 .header__logo{
     display: flex;
     margin: 32px auto 90px auto;
